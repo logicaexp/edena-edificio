@@ -2,9 +2,9 @@
 <html>
 <head><meta charset="gb18030">
 	<title>Edena Edificio - Lógica Exp</title>
-	<script src="https://edenageneral.logicaexp.com/apps/general/babylon/babylon.js"></script>
-	<script src="https://edenageneral.logicaexp.com/apps/general/babylon/babylonjs.loaders.min.js?version=2"></script>
-	<link rel="icon" href="https://edenageneral.logicaexp.com/apps/general/graficos/branding/LogoChico.png">
+	<script src="./apps/general/babylon/babylon.js"></script>
+	<script src="./apps/general/babylon/babylonjs.loaders.min.js?version=2"></script>
+	<link rel="icon" href="./apps/general/graficos/branding/LogoChico.png">
 	<link rel="stylesheet" type="text/css" href="./edificiostyle.css?version=1">
     <meta name="viewport" content="width=device-width, user-scalable=no">
 </head>
@@ -23,16 +23,16 @@
 <div id="fps" class="oculto">0</div>
 
 <div id="logoTopIzquierda">
-    <a href="https://www.logicaexp.com"><img src="https://edenageneral.logicaexp.com/apps/edena/graficos/edenaPNGstroke1.png" class="logoEdenaImagen" alt="Logo de edena" draggable="false"></a>
+    <a href="https://www.logicaexp.com"><img src="./apps/edena/graficos/edenaPNGstroke1.png" class="logoEdenaImagen" alt="Logo de edena" draggable="false"></a>
 </div>
 
 <div class="dropdown">
     <div class="dropdownDentro">
-        <div class="dropdownUno"><img id="botondropdown" class="dropdownImagen dropdownNormal dropdownOpacity0" src="https://edenageneral.logicaexp.com/apps/edena/graficos/botones/bsdropdown.png" draggable="false"></div>
-        <div id="dropdown1" class="dropdownUno dropdownaocultar">Ver señalamientos<img id="bsVerSenalamientos" class="dropdownImagen" src="https://edenageneral.logicaexp.com/apps/edena/graficos/botones/bssenalamientos.png" draggable="false"></div>
-        <div id="dropdown2" class="dropdownUno dropdownaocultar">Rotación<img id="bsRotacion" class="dropdownImagen" src="https://edenageneral.logicaexp.com/apps/edena/graficos/botones/bsrotacion.png" draggable="false"></div>
-        <div id="dropdown3" class="dropdownUno dropdownaocultar">Pantalla completa<img id="bsPantallaCompleta" class="dropdownImagen" src="https://edenageneral.logicaexp.com/apps/edena/graficos/botones/bsfullscreen.png" draggable="false"></div>
-        <div id="dropdown4" class="dropdownUno dropdownaocultar">Ocultar botones<img id="bsOcultarBotones" class="dropdownImagen" src="https://edenageneral.logicaexp.com/apps/edena/graficos/botones/bsverbotones.png" draggable="false"></div>
+        <div class="dropdownUno"><img id="botondropdown" class="dropdownImagen dropdownNormal dropdownOpacity0" src="./apps/edena/graficos/botones/bsdropdown.png" draggable="false"></div>
+        <div id="dropdown1" class="dropdownUno dropdownaocultar">Ver señalamientos<img id="bsVerSenalamientos" class="dropdownImagen" src="./apps/edena/graficos/botones/bssenalamientos.png" draggable="false"></div>
+        <div id="dropdown2" class="dropdownUno dropdownaocultar">Rotación<img id="bsRotacion" class="dropdownImagen" src="./apps/edena/graficos/botones/bsrotacion.png" draggable="false"></div>
+        <div id="dropdown3" class="dropdownUno dropdownaocultar">Pantalla completa<img id="bsPantallaCompleta" class="dropdownImagen" src="./apps/edena/graficos/botones/bsfullscreen.png" draggable="false"></div>
+        <div id="dropdown4" class="dropdownUno dropdownaocultar">Ocultar botones<img id="bsOcultarBotones" class="dropdownImagen" src="./apps/edena/graficos/botones/bsverbotones.png" draggable="false"></div>
     </div>
 </div>
 
@@ -42,41 +42,41 @@
 
 
 <div id="botonesGrandesInicio" class="botonesGrandesDos">
-    <div id="divAmenidades" class="botonesGrandesColumna los5botonesUnoFadeIn01 los5botonesUnoFadeIn02"><img id="bgAmenidades" class="botonGrandeImagenesDos activo" src="https://edenageneral.logicaexp.com/apps/edena/graficos/botones/bgamenidades.png" draggable="false"><span id="txtAmenidades" class="activo">Amenidades</span></div>
-    <div id="divDepartamentos" class="botonesGrandesColumna los5botonesUnoFadeIn01 los5botonesUnoFadeIn02"><img id="bgDepartamentos" class="botonGrandeImagenesDos activo" src="https://edenageneral.logicaexp.com/apps/edena/graficos/botones/bgdepartamentos.png" draggable="false"><span id="txtDepartamentos" class="activo">Departamentos</span></div>
+    <div id="divAmenidades" class="botonesGrandesColumna los5botonesUnoFadeIn01 los5botonesUnoFadeIn02"><img id="bgAmenidades" class="botonGrandeImagenesDos activo" src="./apps/edena/graficos/botones/bgamenidades.png" draggable="false"><span id="txtAmenidades" class="activo">Amenidades</span></div>
+    <div id="divDepartamentos" class="botonesGrandesColumna los5botonesUnoFadeIn01 los5botonesUnoFadeIn02"><img id="bgDepartamentos" class="botonGrandeImagenesDos activo" src="./apps/edena/graficos/botones/bgdepartamentos.png" draggable="false"><span id="txtDepartamentos" class="activo">Departamentos</span></div>
 </div>
 
 <div id="botonesChicosAmenidades" class="botonesChicosBottom">
-    <img id="bsPatiocentral" class="botonChicoImagenesDos noactivo" src="https://edenageneral.logicaexp.com/apps/edena/graficos/botones/bspatiocentral.png" draggable="false">
-    <img id="bsCowork" class="botonChicoImagenesDos noactivo" src="https://edenageneral.logicaexp.com/apps/edena/graficos/botones/bscowork.png" draggable="false">
-    <img id="bsTerrazaa" class="botonChicoImagenesDos noactivo" src="https://edenageneral.logicaexp.com/apps/edena/graficos/botones/bsterrazaa.png" draggable="false">
-    <img id="bsTerrazab" class="botonChicoImagenesDos noactivo" src="https://edenageneral.logicaexp.com/apps/edena/graficos/botones/bsterrazab.png" draggable="false">
+    <img id="bsPatiocentral" class="botonChicoImagenesDos noactivo" src="./apps/edena/graficos/botones/bspatiocentral.png" draggable="false">
+    <img id="bsCowork" class="botonChicoImagenesDos noactivo" src="./apps/edena/graficos/botones/bscowork.png" draggable="false">
+    <img id="bsTerrazaa" class="botonChicoImagenesDos noactivo" src="./apps/edena/graficos/botones/bsterrazaa.png" draggable="false">
+    <img id="bsTerrazab" class="botonChicoImagenesDos noactivo" src="./apps/edena/graficos/botones/bsterrazab.png" draggable="false">
 </div>
 
 <div id="botonesChicosDepartamentos" class="botonesChicosBottom">
-    <img id="bsA1" class="botonChicoImagenesDos noactivo" src="https://edenageneral.logicaexp.com/apps/edena/graficos/botones/bsa1.png" draggable="false">
-    <img id="bsA2" class="botonChicoImagenesDos noactivo" src="https://edenageneral.logicaexp.com/apps/edena/graficos/botones/bsa2.png" draggable="false">
-    <img id="bsB1" class="botonChicoImagenesDos noactivo" src="https://edenageneral.logicaexp.com/apps/edena/graficos/botones/bsb1.png" draggable="false">
-    <img id="bsB2" class="botonChicoImagenesDos noactivo" src="https://edenageneral.logicaexp.com/apps/edena/graficos/botones/bsb2.png" draggable="false">
+    <img id="bsA1" class="botonChicoImagenesDos noactivo" src="./apps/edena/graficos/botones/bsa1.png" draggable="false">
+    <img id="bsA2" class="botonChicoImagenesDos noactivo" src="./apps/edena/graficos/botones/bsa2.png" draggable="false">
+    <img id="bsB1" class="botonChicoImagenesDos noactivo" src="./apps/edena/graficos/botones/bsb1.png" draggable="false">
+    <img id="bsB2" class="botonChicoImagenesDos noactivo" src="./apps/edena/graficos/botones/bsb2.png" draggable="false">
 </div>
 
 <div id="botonesMedianosTres" class="botonesMedianosBottom">
-    <img id="bsVolver" class="botonMedianoImagenes noactivo" src="https://edenageneral.logicaexp.com/apps/edena/graficos/botones/bsregresar.png" draggable="false">
-    <img id="bsInformacion" class="botonMedianoImagenes noactivo botonEntrarDisabled" src="https://edenageneral.logicaexp.com/apps/edena/graficos/botones/bsinformacion.png" draggable="false">
-    <img id="bsEntrar" class="botonMedianoImagenes noactivo highlightCaminar" src="https://edenageneral.logicaexp.com/apps/edena/graficos/botones/bsentrar.png" draggable="false">
+    <img id="bsVolver" class="botonMedianoImagenes noactivo" src="./apps/edena/graficos/botones/bsregresar.png" draggable="false">
+    <img id="bsInformacion" class="botonMedianoImagenes noactivo botonEntrarDisabled" src="./apps/edena/graficos/botones/bsinformacion.png" draggable="false">
+    <img id="bsEntrar" class="botonMedianoImagenes noactivo highlightCaminar" src="./apps/edena/graficos/botones/bsentrar.png" draggable="false">
 </div>
 
 <div id="textoDeSeleccionado" class="textoDeSeleccionado noactivo">Placeholder</div>
 
-<img id="bsVolver360s" class="botonRegresar360s noactivo" src="https://edenageneral.logicaexp.com/apps/edena/graficos/botones/bgvolver.png" draggable="false">
+<img id="bsVolver360s" class="botonRegresar360s noactivo" src="./apps/edena/graficos/botones/bgvolver.png" draggable="false">
 
 
 
 <div id="textoDeAccederDpto" class="textoDeSeleccionado noactivo">¿Ir a modelo A1?</div>
 
 <div id="botonesPalomaTache" class="botonesMedianosBottom">
-    <img id="bspaloma" class="botonMedianoImagenes noactivo" src="https://edenageneral.logicaexp.com/apps/edena/graficos/botones/bspaloma.png" draggable="false">
-    <img id="bstache" class="botonMedianoImagenes noactivo" src="https://edenageneral.logicaexp.com/apps/edena/graficos/botones/bstache.png" draggable="false">
+    <img id="bspaloma" class="botonMedianoImagenes noactivo" src="./apps/edena/graficos/botones/bspaloma.png" draggable="false">
+    <img id="bstache" class="botonMedianoImagenes noactivo" src="./apps/edena/graficos/botones/bstache.png" draggable="false">
 </div>
 
 
@@ -86,14 +86,14 @@
 
 <div class="botonesGrandes">
     <div class="los5botonesDentro">
-        <div class="deLosGrandes"><img id="bgVolver" class="los5botonesImagen noactivo" src="https://edenageneral.logicaexp.com/apps/edena/graficos/botones/bgvolver.png" draggable="false"></div>
-        <div class="deLosGrandes"><img id="bgEntrar" class="los5botonesImagen noactivo highlightCaminar" src="https://edenageneral.logicaexp.com/apps/edena/graficos/botones/bgentrar.png" draggable="false"></div>
+        <div class="deLosGrandes"><img id="bgVolver" class="los5botonesImagen noactivo" src="./apps/edena/graficos/botones/bgvolver.png" draggable="false"></div>
+        <div class="deLosGrandes"><img id="bgEntrar" class="los5botonesImagen noactivo highlightCaminar" src="./apps/edena/graficos/botones/bgentrar.png" draggable="false"></div>
     </div>
 </div>
 
 <div class="botonesGrandesCaminar">
     <div class="los5botonesDentro">
-        <div class="deLosGrandes"><img id="bgVolverCaminar" class="los5botonesImagen noactivo" src="https://edenageneral.logicaexp.com/apps/edena/graficos/botones/bgvolver.png" draggable="false"></div>
+        <div class="deLosGrandes"><img id="bgVolverCaminar" class="los5botonesImagen noactivo" src="./apps/edena/graficos/botones/bgvolver.png" draggable="false"></div>
     </div>
 </div>
 
